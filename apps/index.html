@@ -29,8 +29,17 @@
           <a href="https://itunes.apple.com/us/app/wander-sf/id525494731?mt=8"><img src="../i/ws.png" class="grid-item applogo" alt="WanderSF logo" title="WanderSF" class="applogo"></a>
         </section>
         <script src="/j/main.js"></script>
-        <script>
-          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        <script src="/j/imagesloaded.pkgd.js"></script>
+        <script
+        var grid = document.querySelector('.grid');
+        var msnry = new Masonry( grid, {
+          percentPosition: true
+        });
+        imagesLoaded( grid ).on( 'progress', function() {
+          // layout Masonry after each image loads
+          msnry.layout();
+        });
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
           (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
           m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
           })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
