@@ -56,6 +56,10 @@ html {
 	background: linear-gradient(to bottom, rgba(238,238,238,1) 0%,rgba(204,204,204,1) 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#cccccc',GradientType=0 );
 }
+html.four {
+	background: #fff;
+}
+
 
 body {
   font-family: 'Helvetica Neue', Helvetica, Arial, serif;
@@ -79,7 +83,7 @@ header {
   padding-bottom: 25px;
 }
 
-header h1 {
+header h1, h1.four {
   font-family: 'Chivo', 'Helvetica Neue', Helvetica, Arial, serif;
   font-size: 48px; font-weight: 900;
   line-height: 1.2;
@@ -348,3 +352,46 @@ footer a:hover {
 
 .applogo{border-radius:17.54%;}
 .grid-item{width:200px; margin-bottom: 10px;}
+
+h1.four {
+  font-size: 20vh;
+  font-family: sans-serif;
+  position: relative;
+  background: white;
+  color: black;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+h1.four:before {
+  content: '';
+  display: block;
+  position: absolute;
+  -webkit-filter: blur(20px);
+  filter: blur(20px);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  mix-blend-mode: screen;
+  background-image: repeating-linear-gradient(-45deg, transparent, transparent 1em, #9E2053 1em, orange 50%), repeating-linear-gradient(45deg, #111626, #111626 1em, pink 1em, #571B3D 50%);
+  background-size: 3em 3em, 2em 2em;
+  animation-name: ani;
+  animation-duration: 32s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes ani {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 800% 0;
+  }
+}
+
+.thedot{
+	color:red;
+}
