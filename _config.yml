@@ -8,8 +8,7 @@
 title: AgentC
 email: Inquiry@agentc.io
 description: > # this means to ignore newlines until "baseurl:"
-  AgentC's website.
-# baseurl: "/angela2k16" # the subpath of your site, e.g. /blog
+AgentC's website.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://www.agentc.io" # the base hostname & protocol for your site
 

@@ -1,2 +1,2 @@
-# AgentCio.github.io
-Org website
+# AgentC.io
+Company site
