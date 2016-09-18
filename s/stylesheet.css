@@ -385,12 +385,17 @@ h1.four:before {
 
 .flexy {
 	display: flex;
-	flex-flow: wrap;
-	text-align: inherit;
+	flex-flow: row wrap;
+	text-align: center;
+	justify-content: space-around;
 }
 
-.fleft, .fright, .fheader{
+.fleft, .fright{
 	flex: 1 auto;
+}
+
+.fheader{
+	flex: 1 40rem;
 }
 
 .aflex{
