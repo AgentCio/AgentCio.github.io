@@ -33,6 +33,9 @@ title: AgentC, websites
     Discover Mare Island
   </div>
 
+
+{% comment %}
+
 <section class="aflex">
   <p class="app"><a href="https://itunes.apple.com/ua/app/time-and-money/id371725648?mt=8"><img src="" class="grid-item applogo" alt="T/M logo" title="T/M" class="applogo"></a></p>
   <p class="app"><a href="https://itunes.apple.com/us/app/audible-compass/id399662340?mt=8"><img src="" class="grid-item applogo" alt="Audible Compass" title="Audible Compass logo" class="applogo"></a></p>
@@ -43,7 +46,6 @@ title: AgentC, websites
 </section>
 
 
-{% comment %}
 <!-- <section class="grid"  data-masonry='{ "itemSelector": ".grid-item", "columnWidth": 200, "gutter": 10, "transitionDuration":"0.5s", "stagger":50 }'>
   <a href="https://itunes.apple.com/ua/app/time-and-money/id371725648?mt=8"><img src="../i/tm.png" class="grid-item applogo" alt="T/M logo" title="T/M" class="applogo"></a>
   <a href="https://itunes.apple.com/us/app/audible-compass/id399662340?mt=8"><img src="../i/ac.png" class="grid-item applogo" alt="Audible Compass" title="Audible Compass logo" class="applogo"></a>
