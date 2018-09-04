@@ -2,7 +2,8 @@
 layout: default
 title: AgentC
 ---
-<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
 <p>AgentC is a company which makes <span id="target"></span> <a href="/apps/">apps</a>.</p>
 
