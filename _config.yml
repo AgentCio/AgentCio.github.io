@@ -2,9 +2,9 @@
 
 title: AgentC
 email: Inquiry@agentc.io
-description: AgentC's website.
+description: AgentC's website
 baseurl: ""
-url: "http://www.agentc.io"
+url: "https://www.agentc.io"
 # Build settings
 markdown: kramdown
 exclude: [params.json, .DS_Store, LICENSE, README.md, feed.xml]

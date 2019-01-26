@@ -2,12 +2,12 @@
 layout: default
 title: AgentC
 ---
-
+{% comment %}
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+{% endcomment %}
+<p>AgentC is a company which solves <span id="target"></span> <a href="/apps/">problems</a>.</p>
 
-<p>AgentC is a company which makes <span id="target"></span> <a href="/apps/">apps</a>.</p>
-
-
+{% comment %}
 
 <script>
 (function ($) {
@@ -121,3 +121,4 @@ $('#cursor').teletype({
   pause: 500
 });
 </script>
+{% endcomment %}

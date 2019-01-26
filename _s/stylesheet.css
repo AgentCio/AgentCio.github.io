@@ -1,0 +1,179 @@
+html {
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  background: #fff;
+}
+
+body {
+  margin: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: -apple-system, BlinkMacSystemFont, "Roboto Condensed", "Segoe UI", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+  font-size: 1em;
+  margin: 0;
+  text-rendering: optimizeLegibility;
+}
+
+a {
+  text-decoration: none;
+  color: #c5000c;
+}
+
+header h1, h1.four {
+  font-family: 'Chivo';
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 1.2;
+  color: #303030;
+  letter-spacing: -1px;
+}
+
+header h2 {
+  font-size: 24px;
+  font-weight: normal;
+  line-height: 1.3;
+  color: #aaa;
+  letter-spacing: -1px;
+}
+
+#container {
+  min-height: 595px;
+  margin: 3rem;
+}
+
+.inner {
+  width: 620px;
+  margin: 0 auto;
+}
+
+h3 {
+  margin-bottom: 8px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #303030;
+}
+
+@media only screen and (max-width: 959px) {}
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {}
+
+@media only screen and (max-width: 767px) {
+  header {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .inner {
+    width: 94%;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {}
+
+@media only screen and (max-width: 479px) {}
+
+.applogo {
+  border-radius: 17.54%;
+}
+
+.grid-item {
+  width: 200px;
+  margin-bottom: 10px;
+}
+
+h1.four {
+  font-size: 20vh;
+  position: relative;
+  background: white;
+  color: black;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+h1.four:before {
+  content: '';
+  display: block;
+  position: absolute;
+  -webkit-filter: blur(20px);
+  filter: blur(20px);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  mix-blend-mode: screen;
+  background-image: repeating-linear-gradient(-45deg, transparent, transparent 1em, #9E2053 1em, orange 50%), repeating-linear-gradient(45deg, #111626, #111626 1em, pink 1em, #571B3D 50%);
+  background-size: 3em 3em, 2em 2em;
+  animation-name: ani;
+  animation-duration: 32s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes ani {
+  from {
+    background-position: 0 0;
+  }
+
+  to {
+    background-position: 800% 0;
+  }
+}
+
+.thedot {
+  color: red;
+}
+
+.contact {
+  width: 2rem;
+  height: 1rem;
+}
+
+.flexy {
+  display: flex;
+  flex-flow: row wrap;
+  text-align: center;
+  justify-content: space-around;
+}
+
+.fleft, .fright {
+  flex: 1 auto;
+}
+
+.fheader {
+  flex: 1 40rem;
+}
+
+.aflex {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+}
+
+.app img {
+  width: 6rem;
+  margin: 1rem;
+  transition: all 0.5s ease;
+}
+
+.app img:hover {
+  transform: scale(1.25);
+  box-shadow: 10px 10px 38px 5px #000000;
+  ;
+}
+
+.io {
+  top: 27px;
+  z-index: -1;
+  left: -13px;
+  position: relative;
+  ;
+}
+
+header {
+  position: relative;
+}
